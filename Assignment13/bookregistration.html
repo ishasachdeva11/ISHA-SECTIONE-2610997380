@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>"Readers' Heaven-Book Registration & Order Form"</title>
+</head>
+<body>
+  <form target="_blank">
+    <label for="Name">Name:</label>
+    <input type="text" id="Name" name="Name" placeholder="Enter name"><br><br>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" placeholder="Enter email"><br><br>
+    <label for="mobile">Mobile Number:</label>
+    <input type="number" name="mobile" id="mobile" placeholder="Enter Phone no."><br><br>
+    <label for="age">Age:</label>
+    <input type="number" name="age" id="age" placeholder="Enter your age"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter password"><br><br>
+    <label for="date">Delivery Date:</label>
+    <input type="date" id="date" name="date"><br><br>
+    <label for="time">Delivery Time:</label>
+    <input type="time" id="time" name="time"><br><br>
+    <label for="books">Favorite Book Category:</label>
+    <select name="books" id="books" required>
+      <option value="fiction">Fiction</option>
+      <option value="science">Science</option>
+      <option value="history">History</option>
+      <option value="mystery">Mystery</option>
+      <option value="horror">Horror</option>
+    </select><br><br>
+    Book Title:<textarea name="booktitle" id="booktitle"></textarea> <br><br>
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity"><br><br>
+    <label for="payment">Preferred Payment Method:</label>
+    <label for="cash">Cash on delivery</label>
+    <input type="radio" id="cash" name="payment" value="cash">
+    <label for="online">Online</label>
+    <input type="radio" id="online" name="payment" value="online"><br><br>
+    <label for="services">Additional Services:</label>
+    <label for="giftwrapping">Gift Wrapping</label>
+    <input type="checkbox" id="giftwrapping" name="services" value="giftwrapping">
+    <label for="bookmark">Bookmark Express Delivery</label>
+    <input type="checkbox" id="bookmark" name="services" value="bookmark">
+    <label for="greetingcard">Greeting Card</label>
+    <input type="checkbox" id="greetingcard" name="services" value="greetingcard">
+    <br><br>
+    
+    <input type="hidden" value="Readers Heaven-Book" >
+    <label for="file">Upload file:</label>
+    <input type="file" id="file" name="file"><br><br>
+    <label for="delivery">Delivery Address:</label>
+    <textarea name="deliveryaddress" id="delivery"></textarea><br><br>
+    Special Instructions:<textarea name="instructions" id="instructions"></textarea><br><br>
+    <label for="submit"></label>
+    <input type="submit" name="submit" id="submit">
+    <label for="reset"></label>
+    <input type="reset" id="reset" name="reset">
+   
+
+  </form>
+</body>
+</html>
